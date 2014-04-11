@@ -19,9 +19,19 @@ This does not work:
 
 ## Plugin - Status
 
-Steamgroup Command - early dev. probably won't run very well. 
+Steamgroup Command - early dev. won't run quite yet. hoping for stable before 4/20/2014
 
 ## Contributors
 
 L4ff3n - Owner
 
+Planned updates (notes to self)
+=========
+
+##steamgroupcommand (SGC)
+add sendHelpText( netuser ) -working on this
+Add functionality to change config ingame -and this
+Add functionality to periodically display url
+Longterm:
+	add more and more stuffs! when ready release as a management plugin for doing cool group thingies!
+	
