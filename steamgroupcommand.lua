@@ -4,11 +4,10 @@ PLUGIN.Version = "0.1"
 PLUGIN.Author = "ForgotteN"
 
 function PLUGIN:Init()
-	print("SGC is loading... ") --..............................YES, this is a StarGate pun.
-	self:LoadConfig() --........................................loads configs
-		--..................................................Commands
-		self:AddChatCommand( "sgroup", self.sGroup )  --....Displays group url
-		self:AddChatCommand("sgcreload", self.reload) --....Reloads plugin
+	print("SGC is loading... ") --YES, this is a StarGate pun.
+	self:LoadConfig() 
+		self:AddChatCommand( "sgroup", self.sGroup )
+		self:AddChatCommand("sgcreload", self.reload)
 	end
 	print( "SGC loaded successfully" )
 end
